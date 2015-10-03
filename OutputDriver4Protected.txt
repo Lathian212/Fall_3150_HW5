@@ -1,0 +1,16 @@
+Answer: Even though the parent and child are in different packages the child has access to PROTECTED 
+methods and variables in this case an int in the parent class.
+
+Program Output:
+Protected variable in Parent invocation through Child  child.protectParent()= 888
+
+There is a great table in Liang and explanation:
+
+" Often it is desirable to allow subclasses to access data fields or methods defined in the
+superclass, but not to allow nonsubclasses to access these data fields and methods. To accomplish
+this, you can use the protected keyword. This way you can access protected data
+fields or methods in a superclass from its subclasses. ...
+Use the protected modifier to enable the members of the class to
+be accessed by the subclasses in any package or classes in the same package." 
+-Introduction to Java Programming , Comprehensive Version, 10th edition Y. Daniel Liang
+pg. 440-41

@@ -1,0 +1,6 @@
+Starting Monte Carlo estimate of PI with an R of: 10000 and 4 billion points.
+M The total number of points falling in the circle = 3141369736
+The total number of points falling just in the square = 858630264
+N, the total number of points = 4000000000
+A monte carlo estimate of PI = (M*4)/N = 3.141369736
+Actual value of PI= 3.141592653589793
